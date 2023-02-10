@@ -1,0 +1,168 @@
+/*imported Font style from google*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;1,500&display=swap');
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+html{
+    font-family: 'Montserrat', Monospace;
+    font-size: 36px;
+    font-weight: 300;
+}
+
+body{
+    max-width:1440px;
+    margin: auto;
+}
+#HeroImage {
+    columns: auto;
+    border-image-width: auto;
+}
+h1{
+    text-transform: uppercase;
+}
+/*Nav CSS*/
+
+#nav ul {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    height: 20px;
+}
+
+#nav a {
+    display: block;
+    padding: 20px;
+    top: 0;
+    position:relative;
+    font-size: 20px;
+    text-align: center;
+   background-color: black;
+   color:white;
+    text-decoration: none;
+    border-radius: 0 0 20px 20px;
+    box-shadow: 0 0 0 black;
+    transition: top .5s, box-shadow .5s, text-shadow .5s;
+}
+
+#nav ul a:hover {
+    box-shadow: 0 5px 5px black;
+    text-shadow: 0 5px 5px black;
+    top: 10px;
+}
+
+.white{
+    color: white;
+}
+
+#Info {
+    background-color: rgb(59, 187, 219);
+    columns: auto;
+    text-align: center;
+    }
+
+#Info p {
+font-size: 18px;
+columns: auto;
+background-color: black;
+color:white;
+margin-top:0px;
+padding-bottom:10px;
+}
+
+#content ul {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+#content ul li p 
+{
+    font-size: 16px;
+    padding:60px;
+    text-align: justify;
+    line-height: 1.7
+}
+
+#content2 ul{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+img#log {
+    width: 100px;
+    text-decoration: none;
+}
+
+h3
+{
+    background-color: black;
+    color: white;
+    margin-top:0px;
+    padding-bottom: 10px;
+    margin-bottom:0px;
+}
+
+h2 
+{
+    padding-top:10px;
+    background-color: black;
+    color: white;
+    padding-bottom: 10px;
+    margin-bottom:0px;
+    margin-top: -10px;
+}
+
+div#content2 {
+    background-color: black;
+    color: white;
+    padding-top: 20px;
+    padding-left:20px;
+}
+
+#backtop
+ {
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+
+}
+
+#mainContent p
+{
+    font-size: 18px;
+    padding: 60px;
+    text-align: justify;
+    line-height: 1.7;
+    margin-bottom: 0px;
+}
+
+#footerlog
+{
+    width:100px;
+    text-align: right;
+    padding-right: 20px;
+}
+
+.foot
+{
+    text-align: right;
+}
+
+#headtop
+{
+    margin-left: -110px;
+}
+
+#mainContentaboutus h2
+{
+    text-align: center;
+}
+#mainContentaboutus p
+{
+    font-size: 25px;
+    padding: 60px;
+    text-align: center;
+    line-height: 1.7;
+    margin-bottom: 0px;
+}
